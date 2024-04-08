@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-5;
+}
+.bg-primary{
+  background-color: rgb(45, 126, 126);
+}
+.bg-secondery{
+  background-color: #443184;
+}
+.secondery-img{
+  -webkit-mask-image:url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoNDQuNDY4LCAzNy45ODIsIDM0LjkxMywgMSkiIG9mZnNldD0iMCUiPjwvc3RvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdG9wIGlkPSJzdG9wMiIgc3RvcC1jb2xvcj0icmdiYSg0OS40NzQsIDIyNC4zMzUsIDE3My45ODcsIDEpIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgICAgICA8L2RlZnM+CiAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI3N3LWdyYWRpZW50KSIgZD0iTTE5LjgsLTI0LjVDMjUuOCwtMTguNiwzMC44LC0xMi41LDMxLjgsLTUuN0MzMi45LDEsMzAsOC4zLDI1LjUsMTMuNUMyMS4xLDE4LjcsMTUsMjEuOCw4LjQsMjUuMUMxLjcsMjguNCwtNS42LDMyLC0xMy45LDMxLjdDLTIyLjEsMzEuNSwtMzEuMywyNy40LC0zNi4xLDIwLjNDLTQwLjgsMTMuMSwtNDEuMiwyLjksLTM5LjMsLTYuOUMtMzcuNSwtMTYuNiwtMzMuNiwtMjYsLTI2LjYsLTMxLjdDLTE5LjcsLTM3LjQsLTkuOSwtMzkuNiwtMS41LC0zNy44QzYuOSwtMzYuMSwxMy45LC0zMC40LDE5LjgsLTI0LjVaIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiIHN0cm9rZS13aWR0aD0iMCIgc3R5bGU9InRyYW5zaXRpb246IGFsbCAwLjNzIGVhc2UgMHM7IiBzdHJva2U9InVybCgjc3ctZ3JhZGllbnQpIj48L3BhdGg+CiAgICAgICAgICAgICAgPC9zdmc+);
+  -webkit-mask-repeat: no-repeat;
+}
+.mobile-nav{
+  @apply fixed top-14 left-0 bg-green-600 w-full h-1/4;
+}
+.mobile-nav li{
+  @apply w-full text-center border-b-2 h-full;
+}
+.margin-left{
+  margin-left: 0 !important;
+}
+input[type="range"] {
+  accent-color: #ba0ea6;
+}
+.project-desc{
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-primary opacity-0 duration-500 hover:opacity-100;
+}
+html{
+  scroll-behavior: smooth;
+}
+.btn{
+  @apply bg-[#443184] px-5 py-2 scroll-mt-2 rounded  hover:border-2 border-white w-[140px];
+}
